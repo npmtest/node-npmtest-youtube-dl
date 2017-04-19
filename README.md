@@ -1,7 +1,10 @@
-# test coverage for  [youtube-dl (v1.11.1)](https://github.com/fent/node-youtube-dl)  [![npm package](https://img.shields.io/npm/v/npmtest-youtube-dl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-youtube-dl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-youtube-dl.svg)](https://travis-ci.org/npmtest/node-npmtest-youtube-dl)
+# npmtest-youtube-dl
+
+#### basic test coverage for  [youtube-dl (v1.11.1)](https://github.com/fent/node-youtube-dl)  [![npm package](https://img.shields.io/npm/v/npmtest-youtube-dl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-youtube-dl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-youtube-dl.svg)](https://travis-ci.org/npmtest/node-npmtest-youtube-dl)
+
 #### youtube-dl driver for node
 
-[![NPM](https://nodei.co/npm/youtube-dl.png?downloads=true)](https://www.npmjs.com/package/youtube-dl)
+[![NPM](https://nodei.co/npm/youtube-dl.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/youtube-dl)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-youtube-dl/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-youtube-dl/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-youtube-dl/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-youtube-dl/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-youtube-dl/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-youtube-dl/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-youtube-dl/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-youtube-dl/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-youtube-dl/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-youtube-dl/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-youtube-dl%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-youtube-dl/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-youtube-dl/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-youtube-dl/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-youtube-dl/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-youtube-dl%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-youtube-dl/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-youtube-dl/build/test-report.html](https://npmtest.github.io/node-npmtest-youtube-dl/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-youtube-dl/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-youtube-dl/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-youtube-dl/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-youtube-dl/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-youtube-dl/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-youtube-dl/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-youtube-dl/build/screenCapture.npmPackageListing.svg)
 
@@ -36,7 +45,6 @@
     "contributors": [
         {
             "name": "Przemyslaw Pluta",
-            "email": "przemyslawplutadev@gmail.com",
             "url": "http://przemyslawpluta.com"
         }
     ],
@@ -67,17 +75,14 @@
     "main": "./lib/youtube-dl.js",
     "maintainers": [
         {
-            "name": "fent",
-            "email": "roly426@gmail.com"
+            "name": "fent"
         },
         {
-            "name": "przemyslawpluta",
-            "email": "przemyslawplutadev@gmail.com"
+            "name": "przemyslawpluta"
         }
     ],
     "name": "youtube-dl",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/fent/node-youtube-dl.git"
